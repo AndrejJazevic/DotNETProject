@@ -1,0 +1,36 @@
+:root {
+  --bs-primary: #885df1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+  background-color: #885df1;
+  border-color: #885df1;
+}
+
+.btn-primary:hover {
+  background-color: #7a54d9;
+  border-color: #7a54d9;
+}
+
+.btn-primary:focus {
+  background-color: #6d4ac1;
+  border-color: #6d4ac1;
+  box-shadow: 0 0 0 0.25rem rgba(160, 125, 244, 0.5);
+}
+
+.bg-primary {
+  background-color:#885df1!important;
+}
